@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cvbackground"
+        android:scaleType="centerCrop"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Fill out the information"
+        android:textAlignment="center"
+        android:textColor="#1B1B6C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded_button3"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button3"
+        android:ems="10"
+        android:hint="your jop"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button3"
+        android:ems="10"
+        android:hint="phone number"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button3"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText4"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button3"
+        android:ems="10"
+        android:hint="age"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="111dp"
+        android:layout_height="28dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="next"
+        android:textAlignment="center"
+        android:textColor="#678ED6"
+        android:textColorHint="#F8F4F4"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
